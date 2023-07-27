@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela_Brasileirão_JavaScript</title>
+    <link rel="stylesheet" href="class.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <article style="width: 75%; margin:auto;">
+
+    <div class="coluna">
+        <div class="coluna1" style="width: 70%;">
+        <h2 class="titulo-tabela">TABELA</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="indice" colspan="4">CLASSIFICAÇÃO</th>
+                <th class="indice2">P</th>
+                <th class="indice2">J</th>
+                <th class="indice2">V</th>
+                <th class="indice2">E</th>
+                <th class="indice2">D</th>
+                <th class="indice2">GP</th>
+                <th class="indice2">GC</th>
+                <th class="indice2">SG</th>
+                <th class="indice2">%</th>
+                <th class="indice2">ÚLT.JOGOS</th>
+            </tr>
+        </thead>
+
+        <tbody id="tabela">
+        </tbody>
+
+    </table>
+    </div>
+
+    <div class="coluna2" style="width: 30%;">
+    <section class="tabela-lista-jogos">
+        <header>
+            <h2 class="lista-jogos-titulo">JOGOS</h2>
+        </header>
+        <nav id="listaRodadas">
+        </nav>
+        <input type="hidden" id="rodadaAnterior">
+        <input type="hidden" id="proximaRodada">
+        <div id="tabela2">
+        </div>
+    </section>
+    </div>
+    </div>
+
+    <section class="artilharia-lista" style="margin:auto;">
+        <h2 class="guia-titulo artilharia-titulo">PRINCIPAIS ARTILHEIROS</h2>
+        <div class="ranking">
+            <div class="ranking-secao">
+                <div class="ranking-header">
+                    <div>RANKING</div>
+                    <div class="ranking-header-gol">GOLS</div>
+                </div>
+                <section id="boxRanking" class="boxRanking">
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <script src="java.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</body>
+</html>
